@@ -1,6 +1,11 @@
 #include "MallardDuck.h"
+#include "FlyWithWings.h"
 
-void MallardDuck::display()
-{
+MallardDuck::MallardDuck() {
+	flyBehavior = new FlyWithWings();
+}
+
+void MallardDuck::display() {
 	cout << "Mandarinovaya utka" << endl;
 }
+

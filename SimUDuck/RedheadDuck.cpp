@@ -1,6 +1,11 @@
 #include "RedheadDuck.h"
+#include "FlyWithWings.h"
 
-void RedheadDuck::display()
-{
-	cout << "test";
+RedheadDuck::RedheadDuck() {
+	flyBehavior = new FlyWithWings();
 }
+
+void RedheadDuck::display() {
+	cout << "Krasnogolovaya utka" << endl;
+}
+

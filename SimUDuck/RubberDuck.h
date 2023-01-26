@@ -1,9 +1,8 @@
 #pragma once
 #include "Duck.h"
 
-class RedheadDuck : public Duck {
+class RubberDuck : public Duck {
 public:
-	RedheadDuck();
+	RubberDuck();
 	void display();
 };
-
